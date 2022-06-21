@@ -1,2 +1,6 @@
 TRAINING_FILE = "./data/training_labels.pkl"
 TRAINING_IMGS = "./data/face_detection/cropped_faces/"
+VALIDATION_LABELS = "./data/validation_labels.pkl"
+VALIDATION_BBOX = "./data/face_detection/validation/validation_bbox.pickle"
+VALIDATION_IMGS = "./data/face_detection/validation/"
+MODEL_SAVE_FILE = "saved_model/gender-classification-model"
